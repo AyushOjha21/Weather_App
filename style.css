@@ -112,7 +112,7 @@ body{
    
 .card{
     width: 90%;
-    max-width: 470px;
+    max-width: 350px;
     background: linear-gradient(135deg, #00feba,#5b548a);
     color: #fff;
     margin: 100px auto 0;
@@ -129,17 +129,9 @@ body{
     justify-content:space-around;
 }
 
-.search input{
-    border: 0;
-    outline: 0;
-    background: #ebfffc;
-    color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
-    flex: 1;
-    margin-right:30px ;
-    font-size: 18px;
+.wrapper{
+    position: relative;
+    left: 7%;
 }
 
 .search button{
@@ -159,16 +151,17 @@ body{
 
 .weather-icon{
     width: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .weather h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
 }
 
 .weather h2{
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 2px;
     margin-top: 5px;
 }
 
@@ -188,5 +181,10 @@ body{
     margin-top: 20px;
 }
 
+.col img{
+    width: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
  
 }
